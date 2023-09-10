@@ -1,0 +1,11 @@
+<!-- miapp/templates/miapp/buscar.html -->
+
+{% extends "miapp/base.html" %}
+
+{% block content %}
+<h2>Buscar</h2>
+<form method="get">
+    {{ form.as_p }}
+    <button type="submit">Buscar</button>
+</form>
+{% endblock %}
